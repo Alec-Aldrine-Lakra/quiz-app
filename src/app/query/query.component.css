@@ -1,0 +1,19 @@
+li{
+    list-style-type: none;
+}
+
+.options{
+    padding: 0px;
+    margin-left: -10px;
+}
+.question{
+    padding-left: 30px;
+}
+
+input[type="radio"] {
+    background-color: #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+}

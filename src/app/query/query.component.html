@@ -1,0 +1,10 @@
+<div class="question">
+ {{question}}
+</div>
+<div class="options">
+    <ul>
+        <li *ngFor="let option of options">
+            <input type="radio" value="option" name="options" (change)="itemChange(option)" [disabled]="disabled"> &zwnj;&nbsp; {{option}}
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,6 @@
+<app-query [question]="question" [options]="options" [answer]="answer" (correct)="checkAnswer($event)">
+</app-query>
+<div class="result" *ngIf="showGif">
+    <iframe [src]='sanitizer.bypassSecurityTrustResourceUrl(src)' width="250px" height="250px">
+    </iframe>
+</div>

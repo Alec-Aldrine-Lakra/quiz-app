@@ -1,0 +1,15 @@
+app-query{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #333333;
+    color: white;
+    border-radius: 5px;
+    padding: 30px;
+}
+.result{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
